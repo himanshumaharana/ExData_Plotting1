@@ -42,7 +42,7 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=
 #plot next two plots
 plot(x_axis, y3_axis1, type="l", xlab="datetime", ylab="Voltage")
 
-plot(x_axis, y_axis, type="l", xlab="datetime", ylab="Global_reactive_power (kilowatts)")
+plot(x_axis, y4_axis1, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 # close the graphics device
 dev.off()
